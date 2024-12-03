@@ -1,4 +1,4 @@
-- hosts: "{{ env }}"
+- hosts: "{{ inv }}"
   become: yes
   tasks: 
     - name: remove any previous app services
